@@ -1,0 +1,265 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+/* Header Section */
+header {
+    width: 1440px;
+    height: 96px;
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 38px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+header nav ul .li-active {
+    color: #20b486;
+    font-weight: 600;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #6d737a;
+    font-weight: 400;
+}
+
+header nav ul li a:hover {
+    color: #20b486;
+    font-weight: 600;
+}
+
+header nav ul li .btn {
+    font-weight: 400;
+    color: #fff;
+    background-color: #20b486;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 12px 24px;
+}
+
+header nav ul li .btn:hover {
+    color: #fff;
+    background-color: #50b696;
+    font-weight: 400;
+}
+
+/* Hero Section */
+.hero {
+    width: 1440px;
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    gap: 48px;
+    align-items: center;
+}
+
+.hero .hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 50%;
+}
+
+.hero .hero-text h2 {
+    font-weight: 600;
+    color: #20b486;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.hero .hero-text h1 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 120%;
+}
+
+.hero .hero-text h1 > span {
+    color: #20b486;
+}
+
+.hero .hero-text p {
+    font-family: "Open Sans";
+    color: #6d737a;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.hero .hero-images img {
+    width: 100%;
+}
+
+.hero .hero-buttons {
+    display: flex;
+    gap: 32px;
+    margin-top: 16px;
+    align-items: center;
+}
+
+.hero .hero-buttons .btn-primary {
+    font-weight: 400;
+    color: #fff;
+    background-color: #20b486;
+    text-decoration: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 12px 24px;
+}
+
+.hero .hero-buttons .btn-primary:hover {
+    color: #fff;
+    background-color: #50b696;
+    font-weight: 400;
+}
+
+.hero .hero-buttons .btn-secondary {
+    color: #6d737a;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.hero .hero-buttons .btn-secondary:hover {
+    color: #a7abae;
+}
+
+/* Courses Section */
+.courses {
+    background-color: #f0f6f5;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    gap: 64px;
+}
+
+.courses > h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 32px;
+}
+
+.courses h2 > span {
+    color: #20b486;
+}
+
+.courses > p {
+    margin-top: -60px;
+    line-height: 28px;
+    text-align: center;
+    color: #6d737a;
+}
+
+.course-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.course-list .course-card {
+    max-width: 286px;
+    background-color: #fff;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course-list .course-card > img {
+    border-radius: 16px 16px 0 0;
+    -webkit-border-radius: 16px 16px 0 0;
+    -moz-border-radius: 16px 16px 0 0;
+    -ms-border-radius: 16px 16px 0 0;
+    -o-border-radius: 16px 16px 0 0;
+}
+.course-list .course-card .course-text {
+    padding: 16px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.course-list .course-card .course-text h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.course-list .course-card .course-text > span {
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    color: #20b486;
+    margin-top: -10px;
+}
+
+.course-list .course-card .course-text p {
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    color: #6d737a;
+    line-height: 16px;
+}
+
+.course-avatar {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.course-avatar > span {
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.courses .btn-see-more {
+    font-weight: 400;
+    color: #fff;
+    background-color: #20b486;
+    text-decoration: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 12px 24px;
+    margin-bottom: 50px;
+}
+
+.courses .btn-see-more:hover {
+    color: #fff;
+    background-color: #50b696;
+    font-weight: 400;
+}
