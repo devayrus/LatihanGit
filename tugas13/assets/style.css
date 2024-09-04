@@ -487,6 +487,17 @@ footer {
     font-weight: 400;
 }
 
+.footer-container .footer-link .footer-subscribe > input {
+    border: none;
+    height: 40px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 12px 12px;
+}
+
 .footer-container .footer-link .footer-subscribe > .btn-subs {
     font-size: 14px;
     font-weight: 600;
