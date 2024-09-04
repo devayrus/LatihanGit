@@ -58,7 +58,7 @@ header nav ul li .btn {
 
 header nav ul li .btn:hover {
     color: #fff;
-    background-color: #50b696;
+    background-color: #11644a;
     font-weight: 400;
 }
 
@@ -130,7 +130,7 @@ header nav ul li .btn:hover {
 
 .hero .hero-buttons .btn-primary:hover {
     color: #fff;
-    background-color: #50b696;
+    background-color: #11644a;
     font-weight: 400;
 }
 
@@ -147,7 +147,11 @@ header nav ul li .btn:hover {
 /* Courses Section */
 .courses {
     background-color: #f0f6f5;
-    width: 100%;
+}
+
+.courses-content {
+    width: 1440px;
+    max-width: 80%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -157,17 +161,17 @@ header nav ul li .btn:hover {
     gap: 64px;
 }
 
-.courses > h2 {
+.courses-content > h2 {
     font-size: 48px;
     font-weight: 700;
     margin-top: 32px;
 }
 
-.courses h2 > span {
+.courses-content h2 > span {
     color: #20b486;
 }
 
-.courses > p {
+.courses-content > p {
     margin-top: -60px;
     line-height: 28px;
     text-align: center;
@@ -244,7 +248,7 @@ header nav ul li .btn:hover {
     font-weight: 400;
 }
 
-.courses .btn-see-more {
+.courses-content .btn-see-more {
     font-weight: 400;
     color: #fff;
     background-color: #20b486;
@@ -258,8 +262,248 @@ header nav ul li .btn:hover {
     margin-bottom: 50px;
 }
 
-.courses .btn-see-more:hover {
+.courses-content .btn-see-more:hover {
     color: #fff;
-    background-color: #50b696;
+    background-color: #11644a;
     font-weight: 400;
+}
+
+/* Testimonials Section */
+.testimonials {
+    width: 1440px;
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 46px;
+}
+
+.testimonials > h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 32px;
+}
+
+.testimonials > p {
+    font-size: 14px;
+    margin-top: -50px;
+    line-height: 28px;
+    text-align: center;
+    color: #6d737a;
+}
+
+.testimonial-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.testimonial-list .testimonial-card {
+    max-width: 389px;
+    background-color: #fff;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-list .testimonial-card .testimonial-text {
+    padding: 16px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.testimonial-list .testimonial-card .testimonial-text > h3 {
+    font-size: 24px;
+}
+
+.testimonial-list .testimonial-card .testimonial-text > img {
+    width: 16px;
+}
+
+.testimonial-list .testimonial-card .testimonial-text > p {
+    font-size: 14px;
+    line-height: 150%;
+    color: #6d737a;
+}
+
+.testimonial-list .testimonial-card .testimonial-avatar {
+    padding: 0 8px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-list .testimonial-card .testimonial-avatar > img {
+    width: 144px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #20b486;
+    height: 400px;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+.footer-container {
+    display: flex;
+    width: 1440px;
+    max-width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.footer-container .footer-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    /* flex-grow: 2; */
+}
+
+.footer-container .footer-brand > img {
+    width: 120px;
+    margin-bottom: 8px;
+}
+
+.footer-container .footer-brand > h3 {
+    color: #e7e9eb;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.footer-container .footer-brand > p {
+    color: #e7e9eb;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.footer-container .footer-brand .social-icons ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.footer-container .footer-brand .social-icons ul a {
+    font-size: 24px;
+    color: #fff;
+}
+
+.footer-container .footer-brand .social-icons ul a:hover {
+    color: #11644a;
+}
+
+.footer-container .footer-link {
+    display: flex;
+    gap: 80px;
+}
+.footer-container .footer-link .footer-explore {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-container .footer-link .footer-explore > h3 {
+    color: #e7e9eb;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.footer-container .footer-link .footer-explore > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-container .footer-link .footer-explore > ul a {
+    color: #cfd3d6;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.footer-container .footer-link .footer-explore > ul a:hover {
+    color: #414344;
+}
+
+.footer-container .footer-link .footer-category {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-container .footer-link .footer-category > h3 {
+    color: #e7e9eb;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.footer-container .footer-link .footer-category > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-container .footer-link .footer-category > ul a {
+    color: #cfd3d6;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.footer-container .footer-link .footer-category > ul a:hover {
+    color: #414344;
+}
+
+.footer-container .footer-link .footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-container .footer-link .footer-subscribe > h3 {
+    color: #e7e9eb;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.footer-container .footer-link .footer-subscribe > p {
+    color: #cfd3d6;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer-container .footer-link .footer-subscribe > .btn-subs {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    color: #20b486;
+    background-color: #fff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 12px 24px;
+}
+
+.footer-container .footer-link .footer-subscribe > .btn-subs:hover {
+    color: #fff;
+    background-color: #11644a;
+    font-weight: 600;
 }
