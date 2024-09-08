@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tugas 15 - Workshop 3: Landing Page - Database Connected</title>
+    <!-- CSS Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&family=Poppins:wght@100;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Icon -->
+    <script
+      src="https://kit.fontawesome.com/0a87be03b5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md fixed-top py-3">
+      <div class="container">
+        <a class="navbar-brand mx-auto" href="#">
+          <img src="img/logo.png" alt="Logo" />
+        </a>
+      </div>
+    </nav>
+
+    <!-- Main Section -->
+    <section id="detail" class="detail-section">
+      <div class="container">
+        <!-- Breadcrumb -->
+        <div class="row breadcrumb">
+          <div class="col col-xl-12">
+            <div aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Course</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Web Development
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <div class="row detail-card">
+          <div class="col col-xl-8">
+            <h1>Web Development</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectere adipiscing elit. Feugiat
+              feugiat congue viverra facilisis.
+            </p>
+            <img src="img/avatar.png" alt="Course Avatar 1" />
+            <span>by Albert Flores</span>
+
+            <div class="course-body">
+              <img src="img/course-detail.png" alt="Course Image 1" />
+              <h2>About the course</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur dolorili adipiscing
+                elit. Felis donec massa aliquam id.Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Purus viverra praesent felis
+                consequat pellentesque turpis et quisque platea. Eu, elit ut
+                nunc ac mauris bibendum nulla placerat. Sagittis sit eu sit
+                massa sapien, risus diam. In lorem eu sed euismod laoreet urna,
+                feugiat et. Euismod sem purus rutrum in. Tortor varius a
+                bibendum nisl et tellus. Aliquet elit senectus iaculis netus
+                gravida.
+              </p>
+              <h2>What will you learn</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur dolorili adipiscing
+                elit. Felis donec massa aliquam id.Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Purus viverra praesent felis
+                consequat pellentesque turpis et quisque platea. Eu, elit ut
+                nunc ac mauris bibendum nulla placerat. Sagittis sit eu sit
+                massa sapien,
+              </p>
+              <ul>
+                <li>Introduction to Web Development</li>
+                <li>HTML Basics</li>
+                <li>CSS Fundamentals</li>
+                <li>JavaScript Essentials</li>
+                <li>Responsive Design with Flexbox and Grid</li>
+                <li>Building Dynamic Websites with JavaScript</li>
+                <li>Version Control with Git and GitHub</li>
+                <li>Introduction to Bootstrap</li>
+                <li>Working with APIs</li>
+                <li>Introduction to React</li>
+                <li>Node.js and Express.js</li>
+                <li>Building Full-Stack Applications</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col col-xl-4">
+            <div class="course-card p-4">
+              <h3>$ 20.00 USD</h3>
+              <p>
+                Provide most popular courses that your want to join and lets
+                start the course for the most simply way in here
+              </p>
+              <a href="course-enroll.html" class="btn btn-card-p d-grid"
+                >Enroll Now</a
+              >
+
+              <div class="course-info mt-3">
+                <span><i class="fas fa-chart-bar"></i> Course Level:</span>
+                <span class="text-end">Beginner to Intermediate</span>
+              </div>
+
+              <div class="course-info">
+                <span><i class="far fa-clock"></i> Course Duration:</span>
+                <span class="text-end">8 weeks</span>
+              </div>
+
+              <div class="course-info">
+                <span><i class="far fa-hourglass"></i> Lessons:</span>
+                <span class="text-end">17</span>
+              </div>
+
+              <div class="course-info">
+                <span><i class="far fa-flag"></i> Language:</span>
+                <span class="text-end">English</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col footer-logo">
+            <img src="img/logo-white.png" alt="Logo Brand" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-3 col-md-3 footer-brand">
+            <h3>Contact Us</h3>
+            <p>Call: +123 400 123</p>
+            <p>
+              Praesent nulla massa, hendrerit vestibulum
+              <br />
+              in, feugiat auctor felis.
+            </p>
+            <p>Email: example@mail.com</p>
+            <div class="social-icons">
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-github"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-3 footer-explore">
+            <h3>Explore</h3>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Course</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-xl-3 col-md-3 footer-category">
+            <h3>Category</h3>
+            <ul>
+              <li><a href="#">Design</a></li>
+              <li><a href="#">Development</a></li>
+              <li><a href="#">Marketing</a></li>
+              <li><a href="#">Business</a></li>
+              <li><a href="#">Lifestyle</a></li>
+              <li><a href="#">Photography</a></li>
+              <li><a href="#">Music</a></li>
+            </ul>
+          </div>
+          <div class="col-xl-3 col-md-3 footer-subscribe">
+            <h3>Subscribe</h3>
+            <p>
+              Lorem Ipsum has been them an industry<br />
+              printer took a galley make book.
+            </p>
+            <form action="" method="post">
+              <input type="text" placeholder="Email here" />
+            </form>
+            <a href="#" class="btn btn-subs">Subscribe Now</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

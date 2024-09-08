@@ -1,0 +1,643 @@
+:root {
+  --bg-primary: #20b486;
+  --bg-slate: #a7abae;
+  --font-primary: "Poppins", system-ui;
+  --font-secondary: "Open Sans", system-ui;
+  --shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: var(--font-secondary);
+  font-size: 1rem;
+}
+
+.active {
+  color: var(--bg-primary) !important;
+  font-weight: 600 !important;
+}
+
+/* Navbar */
+.navbar {
+  font-family: var(--font-primary);
+  background-color: #fff;
+  box-shadow: var(--shadow);
+}
+
+.navbar-section .offcanvas {
+  height: 100vh;
+}
+
+.offcanvas-body .navbar-nav {
+  gap: 3rem;
+  margin-right: 3rem;
+}
+
+.offcanvas-body ul li a:hover {
+  color: var(--bg-primary) !important;
+}
+
+.offcanvas-body ul,
+.offcanvas-body button {
+  text-transform: uppercase;
+}
+
+.offcanvas-body .btn-getstarted {
+  background-color: var(--bg-primary);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.6rem 1.1rem;
+  border-radius: 1.3rem;
+  -webkit-border-radius: 1.3rem;
+  -moz-border-radius: 1.3rem;
+  -ms-border-radius: 1.3rem;
+  -o-border-radius: 1.3rem;
+}
+
+.offcanvas-body .btn-getstarted:hover {
+  background-color: #0e523c;
+  color: #fff;
+}
+
+/* Hero Section */
+.hero-section,
+.detail-section,
+.enroll-section,
+.success-section,
+.add-section,
+.blog-section {
+  padding-top: 8rem;
+}
+
+.hero-section img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-section .hero-title > h2,
+.hero-section .hero-title span {
+  font-family: var(--font-primary);
+  color: var(--bg-primary);
+}
+.hero-section .hero-title > h2 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.hero-section .hero-title > h1 {
+  font-family: var(--font-primary);
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.hero-section .hero-title > p {
+  font-size: 1.1rem;
+  line-height: 150%;
+  color: var(--bg-slate);
+  padding-right: 0.5rem;
+}
+
+.hero-section .hero-link {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.hero-section .hero-link .btn-hero-p {
+  background-color: var(--bg-primary);
+  color: #fff;
+  font-family: var(--font-primary);
+  font-weight: 600;
+  padding: 0.6rem 1.5rem;
+  border-radius: 1.3rem;
+  -webkit-border-radius: 1.3rem;
+  -moz-border-radius: 1.3rem;
+  -ms-border-radius: 1.3rem;
+  -o-border-radius: 1.3rem;
+}
+
+.hero-section .hero-link .btn-hero-p:hover {
+  background-color: #0e523c;
+  color: #fff;
+}
+
+.hero-section .hero-link .btn-hero-s {
+  font-family: var(--font-primary);
+  color: var(--bg-slate);
+  padding: 0.6rem 1.5rem;
+  border-radius: 1.3rem;
+  -webkit-border-radius: 1.3rem;
+  -moz-border-radius: 1.3rem;
+  -ms-border-radius: 1.3rem;
+  -o-border-radius: 1.3rem;
+  border-color: var(--bg-slate);
+}
+
+.hero-section .hero-link .btn-hero-s:hover {
+  color: var(--bg-primary);
+  border-color: var(--bg-primary);
+}
+
+/* Course Section */
+.course-section {
+  margin-top: 9rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  background-color: #f0f6f5;
+}
+
+.course-section .course-title h2,
+.course-section .course-title span {
+  font-family: var(--font-primary);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.course-section .course-title span {
+  color: var(--bg-primary);
+}
+
+.course-section .course-title p {
+  color: var(--bg-slate);
+  font-size: 1.2rem;
+}
+
+.course-section .card h5 {
+  font-family: var(--font-primary);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.course-section .card span {
+  font-size: 0.8rem;
+}
+
+.course-section .card p {
+  color: var(--bg-slate);
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+.course-section .card .btn-card-p {
+  background-color: var(--bg-primary);
+  color: #fff;
+  font-family: var(--font-primary);
+  font-weight: 600;
+  padding: 0.6rem 1.5rem;
+}
+
+.course-section .card .btn-card-p:hover {
+  background-color: #0e523c;
+  color: #fff;
+}
+
+.course-section .card .btn-card-s {
+  font-family: var(--font-primary);
+  color: var(--bg-slate);
+  padding: 0.6rem 1.5rem;
+  margin-top: 0.4rem;
+}
+.course-section .card .btn-card-s:hover {
+  color: var(--bg-primary);
+}
+
+/* Testmoni Section */
+.testimoni-section {
+  margin-top: 8rem;
+  padding-top: 0.8rem;
+  padding-bottom: 3rem;
+}
+
+.testimoni-section .course-title h2 {
+  font-family: var(--font-primary);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.testimoni-section .course-title p {
+  color: var(--bg-slate);
+  font-size: 1.2rem;
+}
+
+.testimoni-section .card h5 {
+  font-family: var(--font-primary);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.testimoni-section .card p {
+  color: var(--bg-slate);
+  margin-top: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #20b486;
+  padding: 2rem;
+}
+
+.row h3 {
+  font-family: var(--font-primary);
+  color: #e7e9eb;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.footer-logo {
+  padding-top: 1rem;
+}
+
+.footer-brand > p {
+  color: #e7e9eb;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.footer-brand .social-icons ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-brand .social-icons ul a {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.footer-brand .social-icons ul a:hover {
+  color: #11644a;
+}
+
+.footer-explore ul,
+.footer-category ul {
+  list-style: none !important;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-left: 0;
+}
+
+.footer-explore ul a,
+.footer-category ul a {
+  color: #cfd3d6;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.footer-explore ul a:hover,
+.footer-category ul a:hover {
+  color: #414344;
+}
+
+.footer-subscribe p {
+  color: #cfd3d6;
+  font-size: 1rem;
+}
+
+.footer-subscribe input {
+  font-size: 1rem;
+  border: none;
+  height: 40px;
+  width: 100%;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.footer-subscribe .btn-subs {
+  background-color: #fff;
+  color: var(--bg-primary);
+  font-family: var(--font-primary);
+  font-weight: 600;
+  padding: 0.6rem 1.5rem;
+  border-radius: 1.3rem;
+  -webkit-border-radius: 1.3rem;
+  -moz-border-radius: 1.3rem;
+  -ms-border-radius: 1.3rem;
+  -o-border-radius: 1.3rem;
+  margin-top: 1rem;
+}
+
+.footer-subscribe .btn-subs:hover {
+  background-color: #0e523c;
+  color: #fff;
+}
+
+/* Course Detail Page */
+.detail-section ol li {
+  list-style: none;
+}
+
+.detail-section ol li a {
+  text-decoration: none;
+  color: var(--bg-slate);
+}
+
+.detail-section ol li a:hover {
+  color: var(--bg-primary);
+}
+
+.detail-section h1 {
+  font-family: var(--font-primary);
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.detail-section p {
+  font-size: 0.9rem;
+  line-height: 150%;
+}
+
+.detail-section .course-body {
+  padding-top: 2rem;
+}
+
+.detail-section .course-body img {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.detail-section .course-body h2 {
+  font-family: var(--font-primary);
+  font-size: 3rem;
+  font-weight: 600;
+}
+.detail-section .course-body p {
+  font-size: 1rem;
+  line-height: 160%;
+}
+.detail-section .course-body ul {
+  margin-bottom: 8rem;
+}
+
+.detail-section .course-body ul li {
+  margin-top: 1rem;
+}
+
+.detail-section .course-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: #fff;
+  max-width: 350px;
+  margin: 20px auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.detail-section .course-card h3 {
+  font-family: var(--font-primary);
+  color: #000;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.detail-section .course-card p {
+  color: var(--bg-slate);
+  font-size: 0.8rem;
+}
+
+.detail-section .course-card .btn-card-p {
+  background-color: var(--bg-primary);
+  color: #fff;
+  font-family: var(--font-primary);
+  font-weight: 600;
+  padding: 0.6rem 1.5rem;
+}
+
+.detail-section .course-card .btn-card-p:hover {
+  background-color: #0e523c;
+  color: #fff;
+}
+
+.detail-section .course-card .course-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.detail-section .course-card .course-info span {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+/* Enroll Page */
+.enroll-section ol li {
+  list-style: none;
+}
+
+.enroll-section ol li a {
+  text-decoration: none;
+  color: var(--bg-slate);
+}
+
+.enroll-section ol li a:hover {
+  color: var(--bg-primary);
+}
+
+.enroll-section .course-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: #fff;
+  max-width: 350px;
+  margin: 20px auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.enroll-section .course-card h3 {
+  font-family: var(--font-primary);
+  color: #000;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.enroll-section .course-card .course-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.enroll-section .course-card .course-info span {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.enroll-section .course-card .btn-card-p {
+  background-color: var(--bg-primary);
+  color: #fff;
+  font-family: var(--font-primary);
+  font-weight: 600;
+  padding: 0.6rem 1.5rem;
+}
+
+.enroll-section .course-card .btn-card-p:hover {
+  background-color: #0e523c;
+  color: #fff;
+}
+
+.enroll-section h1 {
+  font-family: var(--font-primary);
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+/* Success Page */
+.success-section h1 {
+  font-family: var(--font-primary);
+  font-weight: 600;
+  color: var(--bg-primary);
+}
+
+.success-section p {
+  color: var(--bg-slate);
+  font-size: 1rem;
+}
+
+.success-section .btn-card-p {
+  background-color: var(--bg-primary);
+  color: #fff;
+  font-family: var(--font-primary);
+  font-weight: 600;
+  padding: 0.6rem 1.5rem;
+}
+
+.success-section .btn-card-p:hover {
+  background-color: #0e523c;
+  color: #fff;
+}
+
+/* Add Page */
+.add-section h2 {
+  color: var(--bg-primary);
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.add-section .btn-add {
+  background-color: var(--bg-primary);
+  color: #fff;
+  font-family: var(--font-primary);
+  font-weight: 600;
+  padding: 0.6rem 1.5rem;
+}
+
+.add-section .btn-add:hover {
+  background-color: #0e523c;
+  color: #fff;
+}
+
+/* Blog Page */
+.blog-section h2 {
+  color: var(--bg-primary);
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.blog-section .card {
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  height: 90%;
+}
+
+.blog-section ol li {
+  list-style: none;
+}
+
+.blog-section ol li a {
+  text-decoration: none;
+  color: var(--bg-slate);
+}
+
+.blog-section ol li a:hover {
+  color: var(--bg-primary);
+}
+
+/* Media Query */
+/* large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .detail-section h1 {
+    font-size: 3rem;
+  }
+
+  .detail-section .detail-card h2 {
+    font-size: 2rem;
+  }
+}
+
+/* small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .offcanvas-body .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .detail-section .course-card {
+    margin-top: -60px;
+    margin-bottom: 4rem;
+  }
+}
+
+/* x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .hero-section {
+    text-align: center;
+  }
+
+  .hero-section .hero-link {
+    justify-content: center;
+  }
+
+  .detail-section .course-card {
+    margin-top: -60px;
+    margin-bottom: 4rem;
+  }
+
+  .breadcrumb {
+    margin: auto;
+  }
+
+  .detail-card {
+    padding: 0 1rem 0 1rem;
+  }
+
+  .detail-section h1 {
+    margin-top: 2rem;
+    font-size: 3rem;
+  }
+
+  .success-section p {
+    font-size: 0.8rem;
+  }
+}
