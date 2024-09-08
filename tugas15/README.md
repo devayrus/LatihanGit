@@ -7,7 +7,7 @@ Multipage, Responsive Design
 * ditampilkan di localhost/tugas15/blog/blog.php (atau akses langsung lewat navbar)
 * halaman blog mengambil data blog post dari database
 
--Halaman Course
+- Halaman Course
 * halaman course detail
 * halaman payment course
 * halaman success pay
